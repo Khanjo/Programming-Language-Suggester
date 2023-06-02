@@ -11,12 +11,87 @@
 </head>
 
 <body>
-    <h1>Programming Language Survey</h1>
+    <div id="header">
+        <h1>Programming Language Survey</h1>
 
-    <p>Choosing a programming language can be difficult, but don't worry! With this handy survey we can get you started
-        on the path most suited to you in this wild world of programming!</p>
+        <p>Choosing a programming language can be difficult, but don't worry! With this handy survey we can get you
+            started on the path most suited to you in this wild world of programming!</p>
+    </div>
 
     <form>
+        <fieldset>
+            <legend>What is your favorite color?</legend>
+
+            <input type="radio" id="red" value="1">
+            <label for="red">Red</label>
+            <br>
+
+            <input type="radio" id="orange" value="2">
+            <label for="orange">Orange</label>
+            <br>
+
+            <input type="radio" id="yellow" value="3">
+            <label for="yellow">Yellow</label>
+            <br>
+
+            <input type="radio" id="green" value="4">
+            <label for="green">Green</label>
+            <br>
+
+            <input type="radio" id="blue" value="5">
+            <label for="blue">Blue</label>
+            <br>
+
+            <input type="radio" id="purple" value="6">
+            <label for="purple">Purple</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What is your favorite climate?</legend>
+
+            <input type="radio" id="temperate" value="1">
+            <label for="temperate">Temperate</label>
+            <br>
+
+            <input type="radio" id="tropical" value="2">
+            <label for="tropical">Tropical</label>
+            <br>
+
+            <input type="radio" id="continental" value="3">
+            <label for="continental">Continental</label>
+            <br>
+
+            <input type="radio" id="dry" value="4">
+            <label for="dry">Dry</label>
+            <br>
+
+            <input type="radio" id="polar" value="5">
+            <label for="polar">Polar</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What was your favorite subject in school?</legend>
+
+            <input type="radio" id="math" value="1">
+            <label for="math">Math</label>
+            <br>
+
+            <input type="radio" id="science" value="2">
+            <label for="science">Science</label>
+            <br>
+
+            <input type="radio" id="english" value="3">
+            <label for="english">English</label>
+            <br>
+
+            <input type="radio" id="history" value="4">
+            <label for="history">History</label>
+            <br>
+
+            <input type="radio" id="sports" value="5">
+            <label for="sports">Physical Education</label>
+        </fieldset>
+
         <button type="submit">Submit</button>
     </form>
 </body>
