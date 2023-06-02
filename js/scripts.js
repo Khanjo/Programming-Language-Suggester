@@ -69,7 +69,6 @@ window.addEventListener("load", function (event) {
             form.reset();
         } else {
             document.querySelector("h2#swift").removeAttribute("class");
-            document.querySelector("h2#rust").removeAttribute("class");
             document.getElementById("c").className = "hidden";
             document.getElementById("javascript").className = "hidden";
             document.getElementById("python").className = "hidden";

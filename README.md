@@ -33,6 +33,7 @@ _No known bugs_
 ## Support and contact details
 
 _Please reach out through my GitHub account. [https://github.com/Khanjo]_
+_Feel free to check it out on Github Pages! [https://khanjo.github.io/Programming-Language-Suggester/]_
 
 ## Technologies Used
 
