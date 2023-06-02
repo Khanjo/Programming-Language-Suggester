@@ -13,11 +13,13 @@ body {
 
 h1 {
     text-align: center;
+    text-shadow: 5px 5px 5px black;
 }
 
 p {
     text-align: center;
     font-size: 14pt;
+    text-shadow: 5px 5px 5px black;
 }
 
 fieldset {
@@ -48,5 +50,5 @@ button {
 
 h2 {
     text-align: center;
-    color: aquamarine;
+    text-shadow: 2px 2px 5px rgb(4, 148, 100);
 }
