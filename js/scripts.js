@@ -10,6 +10,10 @@ window.addEventListener("load", function (event) {
         const vacation = parseInt(document.querySelector('input[name="vacation"]:checked').value);
         const pastime = parseInt(document.querySelector('input[name="pastime"]:checked').value);
 
-        return color + climate + subject + vacation + pastime
+        let result = color + climate + subject + vacation + pastime
+
+        if (result <= 8) {
+            document.querySelector("h2#c").removeAttribute("class")
+        }
     });
 });
